@@ -20,3 +20,11 @@ Target Emulation of : **Gameboy**
 
 ## Dependencies:
 - sdl2
+
+  
+### Installing sdl2 in macbook air m1
+```console
+$ brew install sdl2
+$ brew install sdl2_image
+$ brew install sdl2_ttf
+```
