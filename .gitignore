@@ -1,0 +1,22 @@
+# =========================
+# Build directories
+# =========================
+build/
+
+# =========================
+# Emacs temporary files
+# =========================
+*~
+\#*\#
+.emacs.desktop
+.emacs.desktop.lock
+.elc
+auto-save-list/
+.tramp
+.projectile
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
