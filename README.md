@@ -5,7 +5,12 @@ Target Emulation of : **Gameboy**
 
 
 ## References:
-- https://www.youtube.com/playlist?list=PLVxiWMqQvhg_yk4qy2cSC3457wZJga_e5
+- [Youtube Playlist by lowleveldevel](https://www.youtube.com/playlist?list=PLVxiWMqQvhg_yk4qy2cSC3457wZJga_e5)
+- [pandocs](https://gbdev.io/pandocs/)
+- [opcodes](https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
+- [gameboy Prog manual](https://archive.org/details/GameBoyProgManVer1.1/page/n85/mode/2up)
+- [The Cycle Accurate Game Boy Docs](https://github.com/himanshu9428/gbemulator/blob/main/docs/The%20Cycle-Accurate%20Game%20Boy%20Docs.pdf)
+- [pdf gbctr](https://github.com/himanshu9428/gbemulator/blob/main/docs/gbctr.pdf)
 
 
 ## My Environment:
