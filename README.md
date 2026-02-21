@@ -31,4 +31,4 @@ $ brew install sdl2_ttf
 
 ## Phases:
 - Find all the components required.
-- Lear about cartridge.
+- Learn about cartridge.
