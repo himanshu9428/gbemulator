@@ -32,3 +32,10 @@ $ brew install sdl2_ttf
 ## Phases:
 - Find all the components required.
 - Learn about cartridge.
+
+## To build:
+```console
+$ mkdir build
+$ cmake ..
+$ make
+$ ./tests/chech_gbe [[./tests/test_name]]
