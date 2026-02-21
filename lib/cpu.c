@@ -23,11 +23,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#include <cpu.h>
 
-#include <emu.h>
-
-
-int main(int argc, char **argv)
+void cpu_init()
 {
-    return emu_run(argc, argv);
+    
+}
+
+bool cpu_step()
+{
+    printf("Cpu not yet implemented.\n");
+    return false;
 }

@@ -24,10 +24,13 @@
  * SOFTWARE.
  */
 
-#include <emu.h>
+#ifndef BUS_H
+#define BUS_H
+
+#include <common.h>
+
+u8 bus_read(u16 address);
+void bus_read(u16 address, u6 value);
 
 
-int main(int argc, char **argv)
-{
-    return emu_run(argc, argv);
-}
+#endif

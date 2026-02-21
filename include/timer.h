@@ -23,11 +23,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#ifndef TIMER_H
+#define TIMER_H
 
-#include <emu.h>
+#include <common.h>
 
+void timer_init();
+void timer_tick();
 
-int main(int argc, char **argv)
-{
-    return emu_run(argc, argv);
-}
+#endif

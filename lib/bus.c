@@ -23,11 +23,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#include <bus.h>
 
-#include <emu.h>
-
-
-int main(int argc, char **argv)
+u8 bus_read(u16 address)
 {
-    return emu_run(argc, argv);
+    return 1;
+}
+
+void bus_write(u16 address, u8 value)
+{
+    
 }

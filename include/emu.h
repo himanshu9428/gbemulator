@@ -24,10 +24,22 @@
  * SOFTWARE.
  */
 
-#include <emu.h>
+#ifndef EMU_H
+#define EMU_H
+
+#include <common.h>
 
 
-int main(int argc, char **argv)
-{
-    return emu_run(argc, argv);
-}
+typedef struct{
+    bool paused;    //think of it as if user has pressed pause??
+    bool running;   //think of it as the Power On button?
+    u64 ticks;
+}emu_context;
+
+
+int emu_run(int argc, char **argv);
+
+
+emu_context *emu_get_context();
+
+#endif

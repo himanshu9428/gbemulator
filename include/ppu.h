@@ -23,11 +23,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#ifndef PPU_H
+#define PPU_H
 
-#include <emu.h>
+#include <common.h>
 
+void ppu_init();
+void ppu_tick();
 
-int main(int argc, char **argv)
-{
-    return emu_run(argc, argv);
-}
+#endif

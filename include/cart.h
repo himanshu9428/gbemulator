@@ -23,11 +23,28 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+#ifndef CART_H
+#define CART_H
 
-#include <emu.h>
+#include <common.h>
+
+typedef struct{
+    //taken from Pandocs
+    u8 entry[4];
+    u8 logo[0x30];
+    char title[16]; //this field contains "maufacturer code + CGB flag" in older cartridges. we are targetting older. also the purpose of the manufacturer code is unknown.
+    u16 new_lic_code;
+    u8 sgb_flag;
+    u8 type; //cartridge type
+    u8 rom_size;
+    u8 ram_size;
+    u8 dest_code;
+    u8 lic_code;
+    u8 version;
+    u8 checksum;
+    u16 global_checksum;
+} rom_header;
 
 
-int main(int argc, char **argv)
-{
-    return emu_run(argc, argv);
-}
+bool cart_load(char *cart);
+#endif
